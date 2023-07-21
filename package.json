@@ -1,0 +1,43 @@
+{
+  "name": "simple-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stianSjoli/simple-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stianSjoli/simple-server/issues"
+  },
+  "homepage": "https://github.com/stianSjoli/simple-server#readme",
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "jest-junit": "^11.1.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "5.0.1",
+    "webpack-dev-server": "4.11.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "caniuse-lite": "1.0.30001429",
+    "css-loader": "^4.3.0",
+    "style-loader": "^1.2.1"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      "jest-junit"
+    ]
+  }
+}
