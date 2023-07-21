@@ -1,3 +1,5 @@
+version: 0.2
+
 batch:
   fast-fail: true
   build-list:
@@ -5,5 +7,5 @@ batch:
       buildspec: buildspec-branch-test.yml
       ignore-failure: false
     - identifier: build
-      buildspec: builspec-branch-build.yml
-      ignore-failure: true
+      buildspec: buildspec-branch-build.yml
+      ignore-failure: false
