@@ -8,4 +8,4 @@ batch:
       ignore-failure: false
     - identifier: build
       buildspec: buildspec-branch-build.yml
-      ignore-failure: true
+      ignore-failure: false
