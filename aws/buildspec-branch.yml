@@ -7,5 +7,5 @@ batch:
       buildspec: buildspec-branch-test.yml
       ignore-failure: false
     - identifier: build
-      buildspec: builspec-branch-build.yml
+      buildspec: buildspec-branch-build.yml
       ignore-failure: true
